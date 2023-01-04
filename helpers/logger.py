@@ -23,6 +23,6 @@ def setup_logger(name=__name__):
 
     return logger
 
-if __name__ == "--main__":
+if __name__ == "__main__":
     logger = setup_logger()
     logger.info("Test")

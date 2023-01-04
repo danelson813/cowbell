@@ -1,5 +1,5 @@
-from logger import setup_logger
+from helpers import logger
 
 
-logger = setup_logger()
+logger = logger.setup_logger()
 logger.info('logger is setup')
