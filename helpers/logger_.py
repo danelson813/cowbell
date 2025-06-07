@@ -9,7 +9,7 @@ def setup_logger(name=__name__):
 
     # Create handlers
     c_handler = logging.StreamHandler(sys.stdout)
-    f_handler = logging.FileHandler("logging.log")
+    f_handler = logging.FileHandler("data/logging.log")
     
     # Add formatters
     c_format = logging.Formatter("%(name)s - %(levelname)s - %(message)s")
